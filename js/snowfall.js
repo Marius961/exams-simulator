@@ -1,8 +1,8 @@
 $("body").prepend("<canvas id='canv' style='position: fixed;z-index: 99999; pointer-events: none'></canvas>");
-var c = $("#canv")[0];
+let c = $("#canv")[0];
 let renderer = c.getContext("2d");
 
-var w = c.width = window.innerWidth,
+let w = c.width = window.innerWidth,
     h = c.height = window.innerHeight;
 
 function startSnowFall() {
@@ -17,7 +17,7 @@ function stopSnowFall() {
     renderer.clearRect(0, 0, w, h);
 }
 
-var snow, arr = [];
+let snow, arr = [];
 let freezeSnow = false;
 let snowFallStop = false;
 
@@ -25,9 +25,9 @@ let snowFallStop = false;
 
 function Snowy() {
 
-    var num = 100, tsc = 1, sp = 0.9;
-    var sc = 1.2, t = 0, mv = 50, min = 1;
-    for (var i = 0; i < num; ++i) {
+    let num = 100, tsc = 1, sp = 0.9;
+    let sc = 1.2, mv = 50, min = 1;
+    for (let i = 0; i < num; ++i) {
         snow = new Flake();
         snow.y = Math.random() * (h + 50);
         snow.x = Math.random() * w;
@@ -39,21 +39,23 @@ function Snowy() {
     }
     go();
     function go(){
+        let f;
         if (!snowFallStop) {
             window.requestAnimationFrame(go);
             if (!freezeSnow) {
                 renderer.clearRect(0, 0, w, h);
                 renderer.fill();
-                for (var i = 0; i < arr.length; ++i) {
+                for (let i = 0; i < arr.length; ++i) {
                     f = arr[i];
                     f.t += .05;
                     f.t = f.t >= Math.PI * 2 ? 0 : f.t;
                     f.y += f.sp;
                     f.x += Math.sin(f.t * tsc) * (f.sz * .3);
                     if (f.y > h + 50) f.y = -10 - Math.random() * mv;
-                    if (f.x > w + mv) f.x = - mv;
-                    if (f.x < - mv) f.x = w + mv;
-                    f.draw();}
+                    if (f.x > w + mv) f.x = -mv;
+                    if (f.x < -mv) f.x = w + mv;
+                    f.draw();
+                }
             }
         } else {
             arr = [];

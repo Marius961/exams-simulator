@@ -1,13 +1,16 @@
+// text for the label
 let letItSnowPhrase = "Нехай сніжить!",
     stopTheSnowPhrase = "Зупинити сніг!",
     snowIsStartingPhrase = "Сніг починається",
     snowIsStoppingPhrase = "Сніг зупиняється";
 
 $(document).ready(function () {
+    // read property from local storage
     if (JSON.parse(localStorage.getItem('autoSnowFall'))) {
         $(".snow-label").append(stopTheSnowPhrase);
         startSnow();
     } else {
+        // used by default
         $(".snow-label").append(letItSnowPhrase);
     }
 });
@@ -40,7 +43,7 @@ $("#letItSnowBtn").click(function () {
     }
 });
 
-
+// starts snowfall on the page
 function startSnow() {
     startSnowFall();
 }
