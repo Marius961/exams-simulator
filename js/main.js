@@ -368,7 +368,7 @@ function logQuestion(elem, selectedOptionId, correctOptionId) {
     let className = "";
     $(elem.options).each(function (index, element) {
         if (+element.id === +correctOptionId) {
-            className = correctOptionClassName;
+            className = correctOptionClassName;s
         } else if (+element.id === +selectedOptionId) {
             className = wrongOptionClassName;
         } else {
