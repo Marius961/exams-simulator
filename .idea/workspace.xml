@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="de056009-5400-485f-b4f2-7752f430e671" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="290" column="37" selection-start-line="290" selection-start-column="37" selection-end-line="290" selection-end-column="37" />
+            <state relative-caret-position="210">
+              <caret line="388" selection-start-line="388" selection-end-line="388" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -98,10 +97,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1451" />
-    <option name="y" value="168" />
-    <option name="width" value="1460" />
-    <option name="height" value="871" />
+    <option name="x" value="-1450" />
+    <option name="y" value="169" />
+    <option name="width" value="1458" />
+    <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -111,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +137,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,14 +226,16 @@
       <workItem from="1549191630212" duration="6719000" />
       <workItem from="1549201792482" duration="540000" />
       <workItem from="1549204210026" duration="3000" />
+      <workItem from="1549286721032" duration="668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182014000" />
+    <option name="totallyTimeSpent" value="182682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1448" y="171" width="1217" height="726" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17896523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -360,8 +361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="290" column="37" selection-start-line="290" selection-start-column="37" selection-end-line="290" selection-end-column="37" />
+        <state relative-caret-position="210">
+          <caret line="388" selection-start-line="388" selection-end-line="388" selection-end-column="49" />
         </state>
       </provider>
     </entry>
