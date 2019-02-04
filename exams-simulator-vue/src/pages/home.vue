@@ -98,9 +98,9 @@
 </template>
 
 <script>
-  import testingSegment from '../components/testingSegment'
+  import TestingSegment from '../components/testingSegment'
 	import TestsParser from '../testsParser'
-  import resultComponent from '../components/resultComponent'
+  import ResultComponent from '../components/resultComponent'
   export default {
     data() {
       return {
@@ -116,8 +116,8 @@
 			}
     },
     components: {
-      'testing-segment': testingSegment,
-      'result-component': resultComponent
+      'testing-segment': TestingSegment,
+      'result-component': ResultComponent
     },
     methods: {
       inputChange(event) {

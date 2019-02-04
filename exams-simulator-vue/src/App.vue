@@ -21,5 +21,6 @@
 </script>
 
 <style>
-
+  @import "../static/nav.css";
+  @import "../static/main.css";
 </style>

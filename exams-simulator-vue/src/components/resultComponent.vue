@@ -7,9 +7,9 @@
         <div class="row">
           <div class="col-12 btn-orange-secondary-borderLess p-2"
                @click="showWrongAnswers = !showWrongAnswers"
-               v-if="result.wrongAnswersLog.length > 0"
           >
-            Неправильних відповідей {{result.wrongAnswersLog.length}}
+            <!--v-if="result.wrongAnswersLog.length > 0"-->
+            <!--Неправильних відповідей {{result.wrongAnswersLog.length}}-->
           </div>
           <div class="col-12" v-if="showWrongAnswers">
             <div class="row mt-1 pt-4" v-for="question in result.wrongAnswersLog">
@@ -62,7 +62,7 @@
     props: {
       result: {
         type: Object,
-        default: null
+        default: {}
       }
     },
     data() {
