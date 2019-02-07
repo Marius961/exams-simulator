@@ -27,7 +27,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="392">
               <caret line="388" selection-start-line="388" selection-end-line="388" selection-end-column="49" />
             </state>
           </provider>
@@ -97,10 +97,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1450" />
-    <option name="y" value="169" />
-    <option name="width" value="1458" />
-    <option name="height" value="870" />
+    <option name="x" value="219" />
+    <option name="y" value="67" />
+    <option name="width" value="1460" />
+    <option name="height" value="871" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -110,7 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,25 +117,11 @@
               <item name="exams-simulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="exams-simulator" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="exams-simulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exams-simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exams-simulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exams-simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exams-simulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exams-simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,17 +212,17 @@
       <workItem from="1549201792482" duration="540000" />
       <workItem from="1549204210026" duration="3000" />
       <workItem from="1549286721032" duration="668000" />
+      <workItem from="1549298087842" duration="134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182682000" />
+    <option name="totallyTimeSpent" value="182816000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1448" y="171" width="1217" height="726" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1618" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17896523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13354431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,7 +346,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="392">
           <caret line="388" selection-start-line="388" selection-end-line="388" selection-end-column="49" />
         </state>
       </provider>
