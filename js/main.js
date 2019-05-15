@@ -368,7 +368,7 @@ function logQuestion(elem, selectedOptionId, correctOptionId) {
     let className = "";
     $(elem.options).each(function (index, element) {
         if (+element.id === +correctOptionId) {
-            className = correctOptionClassName;s
+            className = correctOptionClassName;
         } else if (+element.id === +selectedOptionId) {
             className = wrongOptionClassName;
         } else {
@@ -376,7 +376,7 @@ function logQuestion(elem, selectedOptionId, correctOptionId) {
         }
         $("#" + logAnswerId).append(
             "<div class='col-12'>\n" +
-            "   <div class=" + className + "'row ml-sm-4 pl-5 pt-2 pb-2 option-2 '>\n" +
+            "   <div class='row ml-sm-4 pl-5 pt-2 pb-2 option-2 "+ className + "'>\n" +
             "       <label class='col-12 option-1'>"+ element.text +"</label>\n" +
             "   </div>\n" +
             "</div>"
